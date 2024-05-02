@@ -5,11 +5,15 @@
 * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/e2e/booksApp">Репозиторий</a> с автотестами.
 
 ## Что было сделано
-* Создан .gitignore.
-* Создан package.json со скриптами запуска cypress с различными конфигурациями (браузеры, headless, разрешения экранов).
-* Созданы конфигурационные файлы запуска cypress - cypress.config.js, laptopView.config.js, mobileView.config.js.
-* Создан служебный файл commands.js с методами описывающими повторяющиеся операции взаимодействия с элементами.
-* Реализованы классы с функциональными автотестами.
+* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/.gitignore">.gitignore</a>.
+* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/package.json">package.json</a>
+со скриптами запуска cypress с различными конфигурациями (браузеры, headless, разрешения экранов).
+* Созданы конфигурационные файлы запуска cypress - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress.config.js">cypress.config.js</a>,
+ <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/laptopView.config.js">laptopView.config.js</a>,
+<a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/mobileView.config.js">mobileView.config.js</a>.
+* Создан служебный файл <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/support/commands.js">commands.js</a> с методами описывающими повторяющиеся операции взаимодействия с элементами.
+* Реализованы классы с функциональными автотестами - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/e2e/booksApp/login.cy.js">login.cy.js</a>,
+ <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/e2e/booksApp/registeredUser.cy.js">registeredUser.cy.js</a>.
 
   ## Задача 1. Cypress. Установка и настройка проекта
 
