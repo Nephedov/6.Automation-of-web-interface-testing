@@ -1,19 +1,24 @@
 # Домашнее задание к занятию «7.6. Cypress 1»
 
 ## Решения
-* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6">Репозиторий</a> с Cypress проектом.
-* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/e2e/booksApp">Репозиторий</a> с автотестами.
+* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/e2e/booksApp/login.cy.js">login.cy.js</a> - автотесты авторизации.
+* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/e2e/booksApp/registeredUser.cy.js">registeredUser.cy.js</a> - автотесты залогиненного пользователя.
+* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/package.json">package.json</a> - с конфигурациями запуска автотестов.
+
+<a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/main/7.6">Репозиторий</a> с Cypress проектом.
 
 ## Что было сделано
-* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/.gitignore">.gitignore</a>.
-* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/package.json">package.json</a>
+* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/.gitignore">.gitignore</a>.
+* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/package.json">package.json</a>
 со скриптами запуска cypress с различными конфигурациями (браузеры, headless, разрешения экранов).
-* Созданы конфигурационные файлы запуска cypress - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress.config.js">cypress.config.js</a>,
- <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/laptopView.config.js">laptopView.config.js</a>,
-<a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/mobileView.config.js">mobileView.config.js</a>.
-* Создан служебный файл <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/support/commands.js">commands.js</a> с методами описывающими повторяющиеся операции взаимодействия с элементами.
-* Реализованы классы с функциональными автотестами - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/e2e/booksApp/login.cy.js">login.cy.js</a>,
- <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.6/cypress/e2e/booksApp/registeredUser.cy.js">registeredUser.cy.js</a>.
+* Созданы конфигурационные файлы запуска cypress:
+  * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress.config.js">cypress.config.js</a>,
+  * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/laptopView.config.js">laptopView.config.js</a>,
+  * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/mobileView.config.js">mobileView.config.js</a>.
+* Создан служебный файл <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/support/commands.js">commands.js</a> с методами описывающими повторяющиеся операции взаимодействия с элементами.
+* Реализованы классы с функциональными автотестами:
+  * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/e2e/booksApp/login.cy.js">login.cy.js</a>,
+  * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/e2e/booksApp/registeredUser.cy.js">registeredUser.cy.js</a>.
 
   ## Задача 1. Cypress. Установка и настройка проекта
 
