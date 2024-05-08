@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «7.6. Cypress 1»
+# «Cypress 1»
 
 ## Решения
 * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/e2e/booksApp/login.cy.js">login.cy.js</a> - автотесты авторизации.
