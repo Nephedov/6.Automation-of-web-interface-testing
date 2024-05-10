@@ -20,6 +20,10 @@
   * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/e2e/booksApp/login.cy.js">login.cy.js</a>,
   * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.6/cypress/e2e/booksApp/registeredUser.cy.js">registeredUser.cy.js</a>.
 
+---
+---
+
+
 ## Описание Задания 1. Cypress. Установка и настройка проекта
 
 1. Сделайте форк [проекта](https://github.com/netology-code/jsaqa-code/tree/main/booksApp) приложения для работы с книгами из лекции и запустите его локально на своей машине.
